@@ -29,7 +29,6 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
-
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
@@ -67,4 +66,4 @@ jobs:
         with:
           app-name: 'msdocs-python-postgres-101'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_807B28B07C6E4BE9B7851F43CECD2614 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_15B2D6F8F7C4490993CCE509DDC6EC12 }}
